@@ -1,16 +1,13 @@
-# include <iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-	// this program finds the sum of two numbers
-	int x, y, sum;
-	cout << "Enter the first number(x): ";
-	cin >> x;
+int main() {
+	cout << "Hwo much is you masroof" << endl;
+	int int5, int10, inttotal;
+	int5 = 5;
+	int10 = 10;
+	inttotal = int5 + int10;
 
-	cout << " Enter the second number(y): ";
-	cin >> y;
-		sum = x + y;
-	cout << "The sum is " << sum;
+	cout << "The total is: " << inttotal << endl;
+
 	return 0;
-
 }
